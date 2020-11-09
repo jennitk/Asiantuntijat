@@ -108,16 +108,6 @@ $sql = "SELECT users_fk, tp_etunimi, tp_sukunimi, tp_paikkakunta, tp_esittelytek
                                     <!--webkitbox --> 
                                     </div>    
 
-                                    <p class="card-text" style="color: white;">
-                                    <?php
-                                    $teksti=$terapeutti['tp_esittelyteksti'];
-                                    $x=strlen($teksti);
-                                    $j=250-$x;
-                                    for($i=0; $i<$j; $i++){
-                                    echo ".";
-                                    } ?>
-                                    </p>
-                                    
                                     <!--container -->        
                                     </div>                      
 
